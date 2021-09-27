@@ -5,28 +5,28 @@ console.log(randomNum);
 // ================
 // 1b
 // I wanted to try if if instead of if else if, it let's both be executed instead of just one statement
-if (randomNum >= 4){
+if (randomNum >= 4) {
     console.log("Equal to or more than 4");
-  }
-  if (randomNum >= 2){
+}
+if (randomNum >= 2) {
     console.log("Equal to or more than 2");
-  } else {
+} else {
     console.log("Equal to 1");
-  }
+}
 // ================
 // 1c
-if (randomNum != 3){
+if (randomNum != 3) {
     console.log("Not equal to 3");
-  }
+}
 // ================
 // 1d
 if (randomNum != 3 && randomNum != 5) {
     // if (randomNum != (3&&5)){
-console.log("Not equal to 3 AND Not equal to 5");
+    console.log("Not equal to 3 AND Not equal to 5");
 }
 // ================
 // 1e
-if (randomNum === (2 || 4)){
+if (randomNum === (2 || 4)) {
     console.log("Equal to 2 OR equal to 4");
 }
 // ================
@@ -35,7 +35,7 @@ if (randomNum === (2 || 4)){
 randomNum >= 4 ? console.log("Equal to or more than 4") : console.log("Less than 4");
 // ================
 // 3
-switch (randomNum){
+switch (randomNum) {
     case 1:
         console.log("One");
         break;
@@ -48,8 +48,8 @@ switch (randomNum){
     case 4:
         console.log("Four");
         break;
-    case 5:
+    default;
         console.log("Five");
-        break;
+
 }
 // ================
