@@ -53,3 +53,4 @@ switch (randomNum) {
 
 }
 // ================
+// HA! found the correct way to do this switch on MDN web docs
