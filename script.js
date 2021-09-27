@@ -50,7 +50,6 @@ switch (randomNum) {
         break;
     default:
         console.log("Five");
-
 }
 // ================
 // HA! found the correct way to do this switch on MDN web docs
