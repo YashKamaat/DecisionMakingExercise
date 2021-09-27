@@ -32,6 +32,7 @@ if (randomNum === (2 || 4)){
 // ================
 // Bonus
 // 2
+randomNum >= 4 ? console.log("Equal to or more than 4") : console.log("Less than 4");
 // ================
 // 3
 // ================
