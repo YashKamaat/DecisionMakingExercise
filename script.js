@@ -48,9 +48,10 @@ switch (randomNum) {
     case 4:
         console.log("Four");
         break;
-    default;
+    default:
         console.log("Five");
 
 }
 // ================
 // HA! found the correct way to do this switch on MDN web docs
+// Missed the : for the : for my bonus 5
